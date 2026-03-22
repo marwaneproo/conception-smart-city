@@ -1,75 +1,101 @@
 #  Smart City Management System
 
+![Status](https://img.shields.io/badge/status-in%20progress-yellow)
+![UML](https://img.shields.io/badge/UML-Design-blue)
+![License](https://img.shields.io/badge/license-MIT-green)
+
+---
+
 ##  Overview
-Le projet **Smart City Management System** est une plateforme intelligente dédiée à la gestion optimisée des ressources urbaines (eau, énergie, déchets) grâce à l’intégration des technologies IoT et de l’analyse de données.
+The **Smart City Management System** is an intelligent platform designed to optimize the management of urban resources (water, energy, waste) through the integration of IoT technologies and data analytics.
 
 ---
 
-##  Objectifs
-- Assurer le suivi en temps réel des ressources urbaines  
-- Détecter automatiquement les anomalies (fuites, surconsommation)  
-- Aider à la prise de décision pour les autorités locales  
-- Sensibiliser les citoyens à leur impact environnemental  
+##  Objectives
+- Ensure real-time monitoring of urban resources  
+- Automatically detect anomalies (leaks, overconsumption)  
+- Support decision-making for local authorities  
+- Raise citizen awareness about environmental impact  
 
 ---
 
-##  Architecture
-Le système repose sur une architecture distribuée composée de :
-
-- **Frontend** : Application Web  
-- **Backend** : API REST  
-- **Services** :
-  - Service Analyse  
-  - Service Notification  
-- **IoT** : Capteurs intelligents  
-- **Base de données** : PostgreSQL  
-- **Infrastructure** : Cloud  
+##  Use Case Scenario
+A citizen consumes water at home. Smart sensors collect data and send it to the system.  
+If abnormal consumption is detected, the system:
+1. Analyzes the data  
+2. Detects a potential leak  
+3. Sends a notification to the citizen  
+4. Alerts the municipality if necessary  
 
 ---
 
-##  Technologies utilisées
-- **Backend** : Python, Django, Django REST Framework  
-- **Base de données** : PostgreSQL  
-- **IoT** : MQTT / HTTP  
-- **Analyse** : Data Processing / IA  
-- **Déploiement** : Cloud  
+## Architecture
+The system is based on a distributed architecture composed of:
+
+- **Frontend**: Web Application  
+- **Backend**: REST API  
+- **Services**:
+  - Analytics Service  
+  - Notification Service  
+- **IoT**: Smart sensors  
+- **Database**: PostgreSQL  
+- **Infrastructure**: Cloud  
 
 ---
 
-##  Modélisation UML
-- Diagramme de cas d’utilisation  
-- Diagramme de classes  
-- Diagramme de séquence  
-- Diagramme de composants  
-- Diagramme de déploiement  
+##  Technologies Used
+- **Backend**: Python, Django, Django REST Framework  
+- **Database**: PostgreSQL  
+- **IoT**: MQTT / HTTP  
+- **Analytics**: Data Processing / AI  
+- **Deployment**: Cloud  
 
 ---
 
-##  Acteurs
+##  UML Modeling
 
-### Acteurs principaux
-- Citoyen  
-- Municipalité  
-- Administrateur  
+###  Use Case Diagram
+Represents interactions between actors and the system.
 
-### Acteurs secondaires
-- Service IoT  
-- Service Analyse  
-- Service Notification  
-- Fournisseur Cloud  
+###  Class Diagram
+Defines system structure, entities, and relationships.
 
----
+###  Sequence Diagram
+Shows interactions between components over time.
 
-##  Fonctionnalités principales
-- Consultation des consommations  
-- Détection d’anomalies  
-- Notifications en temps réel  
-- Génération de rapports  
-- Gestion des capteurs  
+###  Component Diagram
+Describes system architecture and modules.
+
+###  Deployment Diagram
+Represents the physical deployment of the system.
 
 ---
 
-## 📁 Structure du projet
+##  Actors
+
+### Main Actors
+- Citizen  
+- Municipality  
+- Administrator  
+
+### Secondary Actors
+- IoT Service  
+- Analytics Service  
+- Notification Service  
+- Cloud Provider  
+
+---
+
+##  Key Features
+- Resource consumption monitoring  
+- Anomaly detection  
+- Real-time notifications  
+- Report generation  
+- Sensor management  
+
+---
+
+## 📁 Project Structure
 conception-smart-city/  
 │── README.md  
 │── docs/  
@@ -78,13 +104,12 @@ conception-smart-city/
 
 ---
 
-##  Auteur
+##  Author
 **Marwane El Abbadi**
 
 ---
 
-##  Perspectives
-- Module de paiement  
-- Application mobile  
-- IA avancée  
-- Déploiement multi-villes  
+##  Future Improvements
+- Payment module  
+- Mobile application  
+- Advanced AI integration  
