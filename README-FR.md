@@ -1,12 +1,12 @@
 # Système de Gestion Smart City
-![Status](https://img.shields.io/badge/status-in%20progress-yellow) ![UML](https://img.shields.io/badge/UML-Design-blue) ![License](https://img.shields.io/badge/license-MIT-green) ---
+![Status](https://img.shields.io/badge/status-in%20progress-yellow) ![UML](https://img.shields.io/badge/UML-Design-blue) ![License](https://img.shields.io/badge/license-MIT-green) 
 
-<a href="./README.md">🇬🇧 English</a> |  <a href="./README-FR.md">🇫🇷 Français</a>
+<a href="./README.md">🇬🇧 English</a> | 
 
 ## Vue d’ensemble
 
 Le **Système de Gestion Smart City** est une plateforme intelligente conçue pour optimiser la gestion des ressources urbaines (eau, énergie, déchets) grâce à l’intégration des technologies IoT et de l’analyse de données.
----
+
 
 ## Objectifs
 - Assurer le suivi en temps réel des ressources urbaines
@@ -23,7 +23,8 @@ Un citoyen consomme de l’eau à la maison. Des capteurs intelligents collecten
 2.Détecte une fuite potentielle
 3.Envoie une notification au citoyen
 4.Alerte la municipalité si nécessaire
----
+
+
 
 ## Architecture
 
@@ -37,7 +38,8 @@ Le système repose sur une architecture distribuée composée de :
 **IoT** : Capteurs intelligents
 **Base de données** : PostgreSQL
 **Infrastructure** : Cloud
----
+
+
 
 
 ## Technologies Utilisées
@@ -47,7 +49,7 @@ Le système repose sur une architecture distribuée composée de :
 **IoT** : MQTT / HTTP
 **Analyse** : Traitement des données / IA
 **Déploiement** : Cloud
----
+
 
 ## Modélisation UML
 
