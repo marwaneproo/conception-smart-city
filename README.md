@@ -4,7 +4,9 @@
 ![UML](https://img.shields.io/badge/UML-Design-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
 
----
+
+  <a href="./README.md">🇬🇧 English</a> |  <a href="./README-FR.md">🇫🇷 Français</a>
+
 
 ##  Overview
 The **Smart City Management System** is an intelligent platform designed to optimize the management of urban resources (water, energy, waste) through the integration of IoT technologies and data analytics.
